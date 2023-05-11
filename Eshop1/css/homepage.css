@@ -1,0 +1,173 @@
+.users button
+{
+    background-color: rgb(219, 170, 9); 
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1 90px;
+    padding: 15px;
+    cursor: pointer;
+    transition: opacity 1s;
+    box-shadow: 3px 5px 10px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.sign-up-button
+{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+}
+
+.sign-in-button
+{
+    position: fixed;
+    right: 140px;
+    top: 20px;
+}
+
+.orders-button
+{
+    position: fixed;
+    right: 240px;
+    top: 20px;
+}
+
+.about-button
+{
+    position: fixed;
+    right: 345px;
+    top: 20px
+}
+
+
+.users button:active
+{
+    opacity: 0.8;
+}
+
+.users button:hover
+{
+    background-color: antiquewhite;
+    color:rgb(219, 170, 9);
+}
+
+.users
+{
+    background-color: rgba(147, 230, 15, 0.918); 
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 2px solid black;        
+}
+
+.users label
+{
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: bold;
+    position: fixed;
+    left: 300px;
+    top: 10px;
+}
+
+.ProductsCategories
+{
+    background-color: rgb(7, 149, 231);
+    position: fixed;
+    top: 102px;
+    left: 0px;
+    bottom: 50px;
+    width: 400px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.ProductsCategories label
+{
+    position: fixed;
+    font-size:  40px;
+    font-weight: bold;
+    font-family: fantasy;
+    top: 120px;
+    left: 50px;
+}
+
+.ProductsCategories button
+{
+    position: relative;
+    background-color: rgb(219, 170, 9); 
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1 90px;
+    padding: 15px;
+    cursor: pointer;
+    transition: opacity 1s;
+    box-shadow: 3px 5px 10px 3px;
+    margin-top: 20px;
+    margin-left: 40px;
+    top: 50px;
+    width: 325px;
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.ProductsCategories button:active
+{
+    opacity: 1;
+}
+
+.ProductsCategories button:hover
+{
+    background-color: antiquewhite;
+    color:rgb(219, 170, 9);
+}
+
+.footer-container
+{
+    position: fixed;
+    background-color: orange;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    border-top: 3px solid black ;    
+}
+
+.footer-container label
+{
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+}
+
+.current-ads
+{
+    background-image: url(gamingkyeboardimage.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 1912px;
+    height: 915px;
+}
+
+.text-and-button-for-ads label
+{
+    position: fixed;
+    bottom: 105px;
+    left: 550px;
+    text-align: center;
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: solid;
+    font-size: 30px;
+    cursor: pointer;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+}

@@ -1,0 +1,224 @@
+body
+{
+    background-color: lightgrey;
+}
+.container 
+{
+    position: fixed;
+    background-color: lightblue;
+    left: 350px;
+    width: 60%;
+    height: 300px;
+    top:  160px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);   
+    border: 4px solid black;
+}
+
+.username
+{
+    position: fixed;
+    top: 210px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.username input
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.password input
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.password 
+{
+    position: fixed;
+    top: 265px;
+    left: 700px;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.submit button
+{
+    position: fixed;
+    top: 320px;
+    left: 880px;     
+
+    background-color: rgb(219, 170, 9); 
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1 90px;
+    padding: 15px;
+    cursor: pointer;
+    transition: opacity 1s;
+    box-shadow: 3px 5px 10px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.submit button:active
+{
+    opacity: 0.8;
+}
+
+.submit button:hover
+{
+    background-color: antiquewhite;
+    color:rgb(219, 170, 9);
+}
+.footer-container
+{
+    position: fixed;
+    background-color: orange;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    border-top: 3px solid black ;    
+}
+
+.footer-container label
+{
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+}
+
+.users button
+{
+    background-color: rgb(219, 170, 9); 
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1 90px;
+    padding: 15px;
+    cursor: pointer;
+    transition: opacity 1s;
+    box-shadow: 3px 5px 10px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.sign-up-button
+{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+}
+
+.sign-in-button
+{
+    position: fixed;
+    right: 140px;
+    top: 20px;
+}
+
+.orders-button
+{
+    position: fixed;
+    right: 240px;
+    top: 20px;
+}
+
+.about-button
+{
+    position: fixed;
+    right: 345px;
+    top: 20px
+}
+
+.users button
+{
+    background-color: rgb(219, 170, 9); 
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1 90px;
+    padding: 15px;
+    cursor: pointer;
+    transition: opacity 1s;
+    box-shadow: 3px 5px 10px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.sign-up-button
+{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+}
+
+.sign-in-button
+{
+    position: fixed;
+    right: 140px;
+    top: 20px;
+}
+
+.orders-button
+{
+    position: fixed;
+    right: 240px;
+    top: 20px;
+}
+
+.about-button
+{
+    position: fixed;
+    right: 345px;
+    top: 20px
+}
+
+
+.users button:active
+{
+    opacity: 0.8;
+}
+
+.users button:hover
+{
+    background-color: antiquewhite;
+    color:rgb(219, 170, 9);
+}
+
+.users
+{
+    background-color: rgba(147, 230, 15, 0.918); 
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 2px solid black;        
+}
+
+.users label
+{
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: bold;
+    position: fixed;
+    left: 300px;
+    top: 10px;
+}
+
+.error 
+{
+    position: fixed;
+    top: 175px;
+    left: 450px;
+    color: red;
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold; 
+}
+
+

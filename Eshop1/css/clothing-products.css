@@ -1,0 +1,139 @@
+.header 
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: orange;
+
+    border-bottom: solid 4px black ;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header label:first-child 
+{
+    position: relative;
+    top: 0px;
+    left: 50px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+    color: white;
+
+}
+
+.header label
+{
+    position: relative;
+    margin-right: 10px;
+    right: 0px;
+    left: 900px;
+    top: 0px;
+
+    cursor: pointer;
+
+    color: white;
+}
+
+.footer-container
+{
+    position: fixed;
+    background-color: orange;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    border-top: 3px solid black ;   
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-container label
+{
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+}
+
+.clothing-items button
+{
+    cursor: pointer;
+ 
+}
+
+body
+{
+    background-color: lightgrey;
+}
+
+.clothing-products-container
+{
+    background-color: white;
+    position: relative;
+    top: 60px;
+    left: 250px;
+    width: 1800px;
+    border: 2px solid black;
+
+    left: 50px;
+}
+
+.clothing-items
+{
+    text-align: center;
+    display: inline-block;
+    margin: 0px auto;
+
+    position: relative;
+    margin: 20px;
+    bottom: 0px;
+    border: 2px solid black;
+    box-shadow: 3px 5px 10px 3px;
+
+    cursor: pointer;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.clothing-items button
+{
+    background-color: rgb(219, 170, 9); 
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1 90px;
+    padding: 2px;
+    cursor: pointer;
+    transition: opacity 1s;
+    box-shadow: 3px 5px 10px 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+.clothing-items:active
+{
+    opacity: 0.8;
+}
+
+.clothing-items:hover
+{
+    background-color: antiquewhite;
+    color:rgb(219, 170, 9);
+}
+
+.clothing-items label
+{
+    cursor: pointer;
+}
+
+.shopping-cart button
+{
+    cursor: pointer;
+    position: fixed;
+    right: 2px;
+    top: 500px;
+    border: 3px solid black;
+    box-shadow: 3px 5px 10px 3px;
+}
